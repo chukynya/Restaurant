@@ -25,6 +25,7 @@ public class Restaurant {
 	}
 
 	public void showMenu() {
+		System.out.println(name + "'s menu:");
 		for (Menu menu : menus) {
 			System.out.println(menu.getName() + ":");
 			for (Food food : menu.getFoods()) {
